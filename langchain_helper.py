@@ -6,9 +6,9 @@ from langchain_community.llms.openai import OpenAI
 import environment_keys as env
 import os
 
-os.environ["OPEN_API_KEY"] = "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"
+os.environ["OPEN_API_KEY"] = "sk-pM4p1Po4Kka"
 
-llm = OpenAI(temperature=0.6, openai_api_key="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")
+llm = OpenAI(temperature=0.6, openai_api_key="sk-pM4p1Po4Kka")
 
 
 def generate_restaurent_name_and_items(cuisine):
